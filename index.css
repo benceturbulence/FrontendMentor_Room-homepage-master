@@ -233,23 +233,20 @@ input {
         grid-column: span 6;
     }
 
-
-
     nav .menu_logo {
         margin: 0;
         margin-right: 2em;
     }
 
-    nav ul li a {
-        color: var(--white);
-    }
-
     nav ul li {
         border-bottom: 2px solid transparent;
     }
-    nav ul li:hover {
-        
-    border-bottom: 2px solid var(--white) ;
+
+    nav ul li:hover {        
+        border-bottom: 2px solid var(--white) ;
+    }
+    nav ul li a {
+        color: var(--white);
     }
 }
 
