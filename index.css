@@ -163,6 +163,10 @@ input {
 
 @media (min-width: 600px){
 
+    a {
+        color: var(--black);
+    }
+
     body {
         font-size: 22px;
     }
@@ -184,8 +188,6 @@ input {
         gap: 2em;
     }
 
-    
-
     #hero_image_desktop {
         display: block;
     }
@@ -202,14 +204,11 @@ input {
         grid-row: 1 /2;
     }
 
-
     .grid .hero_text_container {
         grid-column: span 4;
         grid-row: 1 /2;
         align-self: center;
     }
-
-    
 
     .grid .button_box {
         position: absolute;
