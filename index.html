@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  
+
+  <section class="container grid">
+    <input type="checkbox" id="menu_toggle">
+    <nav>
+      <label for="menu_toggle">
+        <img src="images/icon-hamburger.svg" alt="open hamburger menu" class = "open_menu_toggle">
+        <img src="images/icon-close.svg" alt="close hamburger menu" class = "close_menu_toggle">
+      </label>
+      <img src="images/logo.svg" alt="menu logo" class ="menu_logo">
+      <ul>
+        <li><a href="#" alt = "home hyperlink">Home</a></li>
+        <li><a href="#" alt = "shope hyperlink">Shop</a></li>
+        <li><a href="#" alt = "about hyperlink">About</a></li>
+        <li><a href="#" alt = "contact hyperlink">Contact</a></li>
+      </ul>
+    </nav>
+    <div class ="hero_image">
+      <img id = "hero_image_mobile" src="images/mobile-image-hero-1.jpg" alt="hero images" class = "grid_image">
+      <img id = "hero_image_desktop" src = "images/desktop-image-hero-1.jpg" alt = "hero images" class ="grid_image">
+    </div>
+
+    <div class="button_box">
+      <img id = "btn_backward" src="images/icon-angle-left.svg" alt="" aria-label="backwards button">
+      <img id = "btn_foward" src="images/icon-angle-right.svg" alt="" aria label="forward_button">
+    </div>
+    
+    <div id="hero_text_container" class = "hero_text_container text">
+      <h1 id = "hero_title">
+        Discover innovative ways to decorate
+      </h1>
+      <p class="hero_intro longtext" id = "hero_longtext">
+        We provide unmatched quality, comfort, and style for property owners across the country. 
+  Our experts combine form and function in bringing your vision to life. Create a room in your 
+  own style with our collection and make your property a reflection of you and what you love.
+      </p>
+      <a href="#" class = "shop_now_btn">Shop now <img src="images/icon-arrow.svg" alt="shop now button"></a>
+    </div>
+
+    <div class="image_about_first">
+      <img src="images/image-about-dark.jpg" alt="image of a chair with black table" class = "grid_image">
+    </div>
+
+    <div class="about_text_container text">
+      <h2>
+        About our furniture
+      </h2>
+      <p>
+        Our multifunctional colletcion blends design and unction to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create dream space.
+      </p>
+    </div>
+
+    <div class="image_about_second">
+      <img src="images/image-about-light.jpg" alt="image of a chairs" class = "grid_image">
+    </div>
+    
+
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/benceturbulence">benceturbulence</a>.
+  </div>
+  <script src = "index.js"></script>
+</body>
+</html>
